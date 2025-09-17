@@ -1,0 +1,6 @@
+Django==5.2.6
+djangorestframework==3.15.2
+django-cors-headers==4.4.0
+yfinance==0.2.18
+requests==2.31.0
+python-dotenv==1.0.0

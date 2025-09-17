@@ -1,0 +1,59 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations (optional: keep if you want them in repo)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# VS Code / PyCharm / IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Pip / virtualenv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest / coverage
+.coverage
+.tox/
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# mypy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# env files
+.env
+.env.production
